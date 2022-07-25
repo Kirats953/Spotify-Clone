@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0px;   
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 60px;
+    align-items: center ;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 9px;
+}
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg1.jpg');
+    filter: drop-shadow(10px 10px 10px black);
+    flex-direction: column;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 10px;
+
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 40%;
+    color: black;
+    margin: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 20px;
+}
+
+.timestamp
+{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
